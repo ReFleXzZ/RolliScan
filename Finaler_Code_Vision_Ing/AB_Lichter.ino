@@ -1,5 +1,5 @@
 
-boolean oldState = HIGH;
+bool oldState = HIGH;
 int     mode     = 0;    // Currently-active animation mode, 0-9
 void colorWipe(uint32_t color, int wait) {
   for (int i = 0; i < strip.numPixels(); i++) { // For each pixel in strip...
@@ -10,7 +10,7 @@ void colorWipe(uint32_t color, int wait) {
 }
 void LED() {
   // Get current button state.
-  boolean newState = digitalRead(BUTTON_PIN);
+  bool newState = digitalRead(BUTTON_PIN);
 
   // Check if state changed from high to low (button press).
   if ((newState == LOW) && (oldState == HIGH)) {

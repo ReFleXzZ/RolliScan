@@ -45,7 +45,4 @@ void loop() {
     noTone(speaker);
   }
   }
-  }
-  
-
-  
+}

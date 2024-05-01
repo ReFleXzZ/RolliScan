@@ -48,7 +48,7 @@ void loop() {
     noTone(speaker);//Wenn über 50 cm kein Ton
   }
   }
-  }
+}
   
 
   
