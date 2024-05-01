@@ -1,3 +1,12 @@
+int BUTTON_PIN = 4;
+
+//Pin, an dem der LED Ring angeschlossen ist
+#define PIXEL_PIN 13
+
+// Anzahl der LEDs → muss angepasst werden
+# define PIXEL_COUNT 24
+
+Adafruit_NeoPixel strip(PIXEL_COUNT, PIXEL_PIN, NEO_GRB + NEO_KHZ800);
 
 bool oldState = HIGH;
 int     mode     = 0;    // Currently-active animation mode, 0-9
@@ -8,6 +17,7 @@ void colorWipe(uint32_t color, int wait) {
     delay(wait);                           //  Pause for a moment
   }
 }
+
 void LED() {
   // Get current button state.
   bool newState = digitalRead(BUTTON_PIN);
