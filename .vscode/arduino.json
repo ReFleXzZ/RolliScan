@@ -1,6 +1,6 @@
 {
-    "board": "arduino:avr:mega",
-    "port": "COM10",
-    "configuration": "cpu=atmega2560",
-    "programmer": "arduinoisporg"
+    "board": "arduino:avr:uno",
+    "port": "COM9",
+    "programmer": "arduinoisporg",
+    "sketch": "Finaler_Code_Vision_Ing\\Finaler_Code_Vision_Ing.ino"
 }
