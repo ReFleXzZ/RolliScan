@@ -1,7 +1,7 @@
-int BUTTON_PIN = 4;
+int BUTTON_PIN = 5;
 
 //Pin, an dem der LED Ring angeschlossen ist
-#define PIXEL_PIN 13
+#define PIXEL_PIN 6
 
 // Anzahl der LEDs → muss angepasst werden
 # define PIXEL_COUNT 24
