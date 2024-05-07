@@ -1,8 +1,8 @@
-int trigger = 9; //Sender des Signals auf Pin 9
-int echo = 8; //Empfänger des Signals auf Pin 8
+int trigger = 3; //Sender des Signals auf Pin 9
+int echo = 2; //Empfänger des Signals auf Pin 8
 long dauer = 0; //var für Entfernungsberechnung in cm
 long entfernung = 0; // Entfernung in cm nach Berechnung
-int speaker = 12; //Lautspecher für Piepton auf Pin 12/Verändert von 7 wegen dem Ausprobieren der Tastsensoren
+int speaker = 4; //Lautspecher für Piepton auf Pin 12/Verändert von 7 wegen dem Ausprobieren der Tastsensoren
 
 
 void Entfernung (){
